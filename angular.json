@@ -24,8 +24,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
+            
             "scripts": []
           },
           "configurations": {
@@ -120,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "shoppinglist-recipebook-proj"
+  "defaultProject": "shoppinglist-recipebook-proj",
+  "cli": {
+    "analytics": false
+  }
 }
